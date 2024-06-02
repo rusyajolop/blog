@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій Блог</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0057b7; /* синій */
+            color: #ffd700; /* жовтий */
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #0057b7; /* синій */
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #0057b7; /* синій */
+            color: #ffd700; /* жовтий */
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .post {
+            margin-bottom: 20px;
+        }
+        .post h2 {
+            color: #0057b7; /* синій */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Мій Особистий Блог</h1>
+        </div>
+    </header>
+    <nav>
+        <a href="#about">Про мене</a>
+        <a href="#blog">Блог</a>
+        <a href="#contact">Контакти</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="main">
+            <h2>Про мене</h2>
+            <p>Привіт! Я [Ваше Ім'я], автор цього блогу. Я люблю писати про [ваші інтереси або теми блогу]. Дякую, що завітали на мій сайт!</p>
+        </section>
+        <section id="blog" class="main">
+            <h2>Блог</h2>
+            <div class="post">
+                <h2>Назва Посту 1</h2>
+                <p>Це текст першого посту. Тут можна описати тему і поділитися своїми думками.</p>
+            </div>
+            <div class="post">
+                <h2>Назва Посту 2</h2>
+                <p>Це текст другого посту. Продовжуйте ділитися цікавим контентом.</p>
+            </div>
+        </section>
+        <section id="contact" class="main">
+            <h2>Контакти</h2>
+            <p>Можете зв'язатися зі мною через email: [ваш email] або знайти мене в соціальних мережах.</p>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 Мій Блог. Всі права захищені.</p>
+    </footer>
+</body>
+</html>
